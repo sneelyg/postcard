@@ -1,0 +1,56 @@
+body {
+	background: black;
+}
+* {
+	/*border: 1px dashed red;
+	min-height: 10px;*/
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 0px 0px 0px 0px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	width: 190px;
+	padding: 5px;
+	font-family: "Shadows Into Light", cursive;
+	font-size: 16px;
+}
+.body-right {
+	width: 190px;
+	padding: 5px;
+	color: gray;
+}
+.body-right p {
+	border-bottom: 1px solid rgb(173, 170, 170);
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	font-family: "Caveat", cursive;
+	background-color: lightgray;
+	border: none;
+	color: black;
+	padding: 8px 8px 8px 8px;
+	border-radius: 4px;
+
+	text-align: center;
+	text-decoration: none;
+
+	font-size: 10px;
+}
